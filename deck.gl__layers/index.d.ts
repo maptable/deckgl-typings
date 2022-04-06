@@ -689,6 +689,7 @@ declare module '@deck.gl/layers/geojson-layer/geojson-layer' {
     lineWidthUnits?: WidthUnits;
     lineWidthScale?: number;
     lineWidthMinPixels?: number;
+    lineCapRounded?: boolean;
     lineWidthMaxPixels?: number;
     lineJointRounded?: boolean;
     lineMiterLimit?: number;
